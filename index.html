@@ -10,6 +10,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+		<style>
+			h6 {
+				font-family: 'Montserrat';
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -18,7 +25,7 @@
 				<div class="inner">
 					<!-- <a href="#" class="image avatar"><img src="images/avatar.jpeg" alt="" /></a>  -->
 					<h1><strong>Killian Jochen McShane</strong><br />
-					Student of computer science at<br />
+						Student of computer science at<br />
 					The University of Liverpool</h1>
 				</div>
 			</header>
@@ -29,19 +36,20 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2 style="color: #63D488">Creative, techie, and bread baking enthusiast. </h2>
+							<h6 style="color:#498373;font-size: 50px;font-style:italic;">Creative, techie, and bread baking enthusiast. </h6>
 						</header>
+						<br />
 						<p><strong>About</strong><br />I'm a second-year student of computer science at The University of Liverpool, specialising in artificial intelligence and data science. 
 							Proficient in Java, Python, mySQL and functional Haskell programming languages. Highly IT and Mathematically literate, 
 							with a strong background in customer-facing roles. <br /><br />I'm pursuing a career in quantitative analysis.</p>
 						<ul class="actions">
-							<li><a href="https://github.com/killianmcshane/killianmcshane.github.io/blob/main/CV-12-2020.pdf" class="button">View CV</a></li>
+							<li><a href="https://imgur.com/a/iP9k8HX" class="button">View CV</a></li>
 						</ul>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Project Portfolio</h2>
+						<h2>Project Portfolio Highlights</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
@@ -72,14 +80,44 @@
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+							</article>-->
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul> -->
+							<li><a href="https://github.com/killianmcshane" class="button">Full Portfolio</a></li>
+						</ul> 
 					</section>
 
-				<!-- Three -->					
+				<!-- Three -->
+				<section id="three">
+					<h2>Connect With Me</h2>
+					<p>Feel free to use the email submission form if you've got any questions, or call me on the number below for a wee chat.</p>
+					<div class="row">
+						<div class="col-8 col-12-small">
+							<form action="https://smartforms.dev/submit/5fcfa9e5b81854118fd3ef87" method="POST">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+									<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+								</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+						</div>
+						<div class="col-4 col-12-small">
+							<ul class="labeled-icons">
+								<li>
+									<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+									+44 782-174-5056
+								</li>
+								<li>
+									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+									<a href=""></a>killian.jmcshane@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>				
 				<!-- Four -->
 				<!--
 					<section id="four">
@@ -291,9 +329,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</table>
 							</div>
 						</section>
-
+					
 						<section>
 							<h4>Buttons</h4>
+							
+
 							<ul class="actions">
 								<li><a href="#" class="button primary">Primary</a></li>
 								<li><a href="#" class="button">Default</a></li>
@@ -320,7 +360,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<li><span class="button disabled">Default</span></li>
 							</ul>
 						</section>
-
+					
 						<section>
 							<h4>Form</h4>
 							<form method="post" action="#">
@@ -331,6 +371,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<div class="col-6 col-12-xsmall">
 										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
 									</div>
+									
 									<div class="col-12">
 										<select name="demo-category" id="demo-category">
 											<option value="">- Category -</option>
@@ -360,9 +401,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<input type="checkbox" id="demo-human" name="demo-human" checked>
 										<label for="demo-human">I am a human and not a robot</label>
 									</div>
+									
 									<div class="col-12">
 										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 									</div>
+									
 									<div class="col-12">
 										<ul class="actions">
 											<li><input type="submit" value="Send Message" class="primary" /></li>
@@ -372,7 +415,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</div>
 							</form>
 						</section>
-
+						
 						<section>
 							<h4>Image</h4>
 							<h5>Fit</h5>
@@ -422,6 +465,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>

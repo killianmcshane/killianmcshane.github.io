@@ -173,7 +173,7 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 3.25em;
 		line-height: 1.5em;
 	}
 
@@ -2989,7 +2989,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
+        
 	}
 
 /* Large */
@@ -3007,9 +3007,9 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-					#header h1 br {
-						display: block !important;
-					}
+				#header h1 br {
+					display: block !important;
+				}
 
 				#header > .inner {
 					margin-bottom: 0;
@@ -3135,6 +3135,12 @@ input, select, textarea {
 			h3 {
 				font-size: 1em;
 			}
+            
+            header.major h6 {
+                font-size: 1.75em;
+                
+            }
+
 
 		/* Section/Article */
 
@@ -3165,7 +3171,7 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
-
+ 
 		/* Footer */
 
 			#footer {
@@ -3209,6 +3215,7 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+                
 
 		/* Footer */
 

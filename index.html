@@ -18,6 +18,7 @@
 				font-style: italic;
 			}
 		</style>
+
 	</head>
 	<body class="is-preload">
 
@@ -39,7 +40,6 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							
 							<h6 style="font-style:italic;color:#40B594">Creative techie, and bread <br />baking enthusiast. </h6>
 						</header>
 						<p style="font-family:Montserrat;font-size:16px;"> I'm a second-year student of computer science at The University of Liverpool, specialising in artificial intelligence and data science. 
@@ -52,12 +52,13 @@
 					<section id="two">
 						<h2 style="font-family:Montserrat;font-size:20px;">Projects</h2>
 						<p style="font-family:Montserrat;font-size:16px;">Check out some highlights of my projects and the complete code on my GitHub portfolio below.<br></p>
+						<nav>
 						<ul class="actions">
 							<li><a href="resume.html" class="button" style="font-family:Montserrat;font-size:16px;">Resume</a></li>
-							<li><a href="https://github.com/killianmcshane" class="button"  style="font-family:Montserrat;font-size:16px;">Full Portfolio</a></li>
+							<li><a href="https://github.com/killianmcshane" class="button" style="font-family:Montserrat;font-size:16px;">Full Portfolio</a></li>
 						</ul>
-						
-						<br \>
+						</nav>
+						<br />
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.gif" class="image fit thumb"><img src="images/thumbs/05.gif" alt="" /></a>
@@ -470,16 +471,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
+		
+			
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>		
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript" src="assets/js/jquery.AntiScroll.min.js"></script> 
-			<script type="text/javascript">
-				$('section a').antiScroll();
-			</script>	
+			<script type="text/javascript">$('nav a').antiScroll();</script>
+			
 			
 	</body>
 </html>

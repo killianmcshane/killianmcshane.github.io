@@ -3238,9 +3238,8 @@ input, select, textarea {
 }
 .css-typing p:nth-child(1) {
   width: 14em;
-    opacity: 0;
-  -webkit-animation: type 2s steps(40, end);
-  animation: type 2s steps(40, end);
+  -webkit-animation: type 1.2s steps(30, end);
+  animation: type 1.2s steps(30, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -3248,8 +3247,8 @@ input, select, textarea {
 .css-typing p:nth-child(2) {
   width: 9.75em;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type2 1.2s steps(30, end), blink .5s step-end infinite alternate;
+  animation: type2 1.2s steps(30, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;

@@ -1817,7 +1817,7 @@ input, select, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;h2
+		appearance: none;
 
 		background: #f7f7f7;
 		border-radius: 0.35em;
@@ -3238,8 +3238,9 @@ input, select, textarea {
 }
 .css-typing p:nth-child(1) {
   width: 14em;
-  -webkit-animation: type 1.2s steps(30, end);
-  animation: type 1.2s steps(30, end);
+  opacity: 0;
+  -webkit-animation: type 1.2s steps(25, end);
+  animation: type 1.2s steps(25, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -3247,22 +3248,17 @@ input, select, textarea {
 .css-typing p:nth-child(2) {
   width: 9.75em;
   opacity: 0;
-  -webkit-animation: type2 1.2s steps(30, end), blink .5s step-end infinite alternate;
-  animation: type2 1.2s steps(30, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation: type2 1.2s steps(25, end), blink .5s step-end infinite alternate;
+  animation: type2 1.2s steps(25, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
-.css-blink p {
-  border-right: .15em solid lightgray; 
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.css-blink p:nth-child(1) {
-  width: 9.75em;
+.css-blink {
+  border-right: .15em solid lightgray;
+  margin: 0 .25em;
   opacity: 0;
   -webkit-animation: type2, blink .5s step-end infinite alternate;
   animation: type2, blink .5s step-end infinite alternate;
@@ -3270,15 +3266,18 @@ input, select, textarea {
   animation-fill-mode: forwards;
 }
 
-
 @keyframes type {
   0% {
     width: 0;
+  }
+  1% {
+    opacity: 1;
   }
   99.9% {
     border-right: .15em solid lightgray;
   }
   100% {
+	opacity: 1;
     border: none;
   }
 }
@@ -3287,10 +3286,14 @@ input, select, textarea {
   0% {
     width: 0;
   }
+  1% {
+    opacity: 1;
+  }
   99.9% {
     border-right: .15em solid lightgray;
   }
   100% {
+	opacity: 1;
     border: none;
   }
 }
